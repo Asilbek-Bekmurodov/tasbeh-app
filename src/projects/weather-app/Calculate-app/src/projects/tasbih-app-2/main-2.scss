@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tasbih2 {
+    width: 100%;
+    height: 100vh;
+
+}
+
+nav {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url('https://image.shutterstock.com/image-photo/close-wood-tasbih-blur-bokeh-260nw-2142714327.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    overflow: hidden;
+    color: white;
+
+    div {
+        display: grid;
+        place-items: center;
+    }
+
+    .tasbih-total {
+
+        display: grid;
+        place-items: center;
+
+        h1 {
+            span {
+                font-size: 8rem;
+            }
+
+            font-size: 4.4rem;
+        }
+
+        .total {
+            text-align: right;
+
+            h2 {
+                margin-top: 1rem;
+                font-size: 3rem;
+            }
+        }
+
+    }
+}
+
+.tasbeh-zone{
+    width: 1200px;
+    height: 100%;
+    background-color: azure;
+}
+.control-zone {
+    width: 820px;
+    height: 400px;
+    margin: 0 auto;
+    cursor: pointer;
+    overflow: hidden;
+
+
+    .circle {
+        margin-top: 5.9rem;
+        width: 1500px;
+        height: 1400px;
+        border-radius: 50%;
+        border: 3px solid;
+        position: relative;
+
+        span {
+            position: absolute;
+            left: 0;
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: rgb(133, 2, 255);
+            left: 40px;
+
+            i {
+                display: inline-block;
+                position: relative;
+                width: 15px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: rgba(255, 255, 255, 0.959);
+            }
+        }
+
+        span:nth-child(1) {
+            top: 295px;
+            left: 75px;
+        }
+
+        span:nth-child(2) {
+            top: 235px;
+            left: 118px;
+        }
+
+        span:nth-child(3) {
+            top: 179px;
+            left: 165px;
+        }
+
+        span:nth-child(4) {
+            top: 133px;
+            left: 222px;
+        }
+
+        span:nth-child(5) {
+            top: 0px;
+            left: 490px;
+        }
+
+        span:nth-child(6) {
+            top: -22px;
+            left: 560px;
+        }
+
+        span:nth-child(7) {
+            top: -32px;
+            left: 631.3px;
+        }
+
+        span:nth-child(8) {
+            top: -35px;
+            left: 704px;
+        }
+
+        span:nth-child(9) {
+            top: -35px;
+            left: 780px;
+        }
+
+    }
+}
+
+
+button {
+    width: 200px;
+    height: 50px;
+    color: white !important;
+    opacity: 0.9;
+}
